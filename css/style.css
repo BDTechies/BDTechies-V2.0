@@ -1,0 +1,103 @@
+@import url(https://fonts.googleapis.com/css?family=Quicksand);
+@import url(https://fonts.googleapis.com/css?family=Akronim);
+
+body {
+	color: #ececec;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.outer {
+	position: relative;
+}
+
+.inner {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+
+/*---
+Navigation
+--------*/
+
+.navbar-brand {
+	font-size: 1.5em;
+	font-family: 'Akronim', cursive;
+}
+
+.navbar-brand:hover {
+	text-shadow: 0 0 1px #000;
+}
+
+.navbar-brand:hover .t{
+	color: red;
+}
+
+.navbar-brand:hover .bd, .navbar-brand:hover .echies{
+	color: #1E824C;
+}
+
+.navbar-default {
+    background: none;
+    border-style: dotted;
+    border-color: rgba(255,255,255,.3);
+}
+
+.navbar-default .navbar-brand {
+    color: #ececec;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #ececec;
+}
+
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
+    color: #F2784B;
+}
+
+/*---
+Home
+---*/
+
+#home {
+	background-image: url(../img/home-bg.png);
+    background-size: cover;
+	font-family: 'Akronim', cursive;
+	text-shadow: 1px 1px 1px #000;
+	font-size: 3em;
+	text-align: center;
+}
+
+#home .fa-cog {
+	font-size: .7em;
+	text-shadow: 0 0 1px #000;
+	color: #87D37C;
+}
+
+/*---
+About
+---*/
+
+.about {
+    text-align: justify;
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+
+#bg-about {
+    background-image: url(../img/about-bg.png);
+    background-size: cover;
+    color: #22313F;
+}
+
+/*---
+Responsive
+--------*/
+@media only screen and (max-width: 320px) {
+    .about {
+        font-size: 1em;
+        line-height: 1.7em;
+    }
+}
