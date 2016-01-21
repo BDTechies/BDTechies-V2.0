@@ -41,11 +41,11 @@
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
-                    <ul class="nav navbar-nav navbar-right">
-                        <li data-anchor="home"><a href="#home">Home</a></li>
+                    <ul class="nav navbar-nav navbar-right" id="myMenu">
+                        <li data-anchor="home" class="active"><a href="#home">Home</a></li>
                         <li data-anchor="about"><a href="#about">About</a></li>
                         <li data-anchor="portfolio"><a href="#portfolio">Portfolio</a></li>
-                        <li data-anchor="blog"><a href="#blog">Blog</a></li>
+                        <li data-anchor="blog"><a href="http://prozuktischool.bdtechies.com">Blog</a></li>
                         <li data-anchor="contact"><a href="#contact">Contact Us</a></li>
                     </ul>
                 </div>
@@ -67,64 +67,151 @@
 
             <div class="container">
                 <div class="row">
-                    <div class="col-xs-12 col-sm-12 col-md-6 des">
+                    <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 des">
                         <p> BDTechies is one of the new and infamous IT developer group based in Bangladesh which is consist of some tech lover bearded guys. It has established in 2016. The main vision of the organisation is to help out those creative people around the world who have ideas but do not know how to bring them into reality. The bearded guys from BDTechies can convert ideas into HTML5, Java, PHP, Android and the list goes on. So they say,</p>
                         <p class="text-center">"We convert IDEAS into REALITY"</p>
                         <p>Our experties:</p>
                         <div class="row">
                             <div class="col-xs-2">
-                                <img src="http://placehold.it/300x300" alt="" class="img-responsive">
+                                <img src="img/html5.svg" alt="html5" class="img-responsive">
                             </div>
                             <div class="col-xs-2">
-                                <img src="http://placehold.it/300x300" alt="" class="img-responsive">
+                                <img src="img/java.svg" alt="" class="img-responsive">
                             </div>
                             <div class="col-xs-2">
-                                <img src="http://placehold.it/300x300" alt="" class="img-responsive">
+                                <img src="img/php.svg" alt="" class="img-responsive">
                             </div>
                             <div class="col-xs-2">
-                                <img src="http://placehold.it/300x300" alt="" class="img-responsive">
+                                <img src="img/bootstrap.svg" alt="" class="img-responsive">
                             </div>
                             <div class="col-xs-2">
-                                <img src="http://placehold.it/300x300" alt="" class="img-responsive">
+                                <img src="img/wordpress.svg" alt="" class="img-responsive">
                             </div>
                             <div class="col-xs-2">
-                                <img src="http://placehold.it/300x300" alt="" class="img-responsive">
+                                <img src="img/android.svg" alt="" class="img-responsive">
                             </div>
                         </div>
-                    </div>
-                    <div class="col-md-6 col-sm-12 visible-sm visible-md visible-lg">
-                        <div class="row">
-                            <p class="team-dis">We have a TEAM consisting of three members with expertise in various fields. Shahid has a great passion for web development and experienced in HTML5, CSS3, jQuery, PHP etc. Touhid loves to convert any kind of interesting ideas into Java and Android application and he is great in problem solving (in programming). Sahariar is equally skilled in Internet Programming and Android development. </p>
-                            <div class="row team-img">
-                                <div class="col-md-4 col-sm-4">
-                                    <img src="http://placehold.it/300x300" alt="" class="img-responsive">
-                                </div>
-                                <div class="col-md-4 col-sm-4">
-                                    <img src="http://placehold.it/300x300" alt="" class="img-responsive">
-                                </div>
-                                <div class="col-md-4 col-sm-4">
-                                    <img src="http://placehold.it/300x300" alt="" class="img-responsive">
-                                </div>
-                            </div>
-                        </div>
-
                     </div>
                 </div>
             </div>
 
         </div>
 
-        <div class="section">
-
-            <div class="slide"> Portfolio </div>
-            <div class="slide"> Slide 2 </div>
-            <div class="slide"> Slide 3 </div>
-            <div class="slide"> Slide 4 </div>
-
+        <div class="section portfolio" id="bdt-portfolio">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-xs-6 thumb">
+                        <a class="thumbnail" href="#">
+                            <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-xs-6 thumb">
+                        <a class="thumbnail" href="#">
+                            <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-xs-6 thumb">
+                        <a class="thumbnail" href="#">
+                            <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-xs-6 thumb">
+                        <a class="thumbnail" href="#">
+                            <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-xs-6 thumb">
+                        <a class="thumbnail" href="#">
+                            <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-xs-6 thumb">
+                        <a class="thumbnail" href="#">
+                            <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="section">Blog</div>
-        <div class="section">Contact Us</div>
+        <div class="section contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-offset-1 col-md-3 col-sm-12">
+                        <h2 class="text-center">Find Us</h2>
+                        <table class="table">
+                            <tbody>
+                                <tr>
+                                    <td><i class="fa fa-map-marker"></i> Address</td>
+                                    <td>Dhaka, Bangladesh</td>
+                                </tr>
+                                <tr>
+                                    <td><i class="fa fa-envelope"></i> Email</td>
+                                    <td>info@bdtechies.com</td>
+                                </tr>
+                                <tr>
+                                    <td><i class="fa fa-phone"></i> Phone</td>
+                                    <td>+8801828619953</td>
+                                </tr>
+                                <tr class="hidden-xs">
+                                    <td><i class="fa fa-facebook-square"></i> Facebook</td>
+                                    <td>fb.com/bdtechies</td>
+                                </tr>
+                                <tr class="hidden-xs">
+                                    <td><i class="fa fa-twitter-square"></i> Twitter</td>
+                                    <td>twitter.com/bdtechies</td>
+                                </tr>
+                                <tr class="hidden-xs">
+                                    <td><i class="fa fa-skype"></i> Skype</td>
+                                    <td>bdtechies</td>
+                                </tr>
+                                <tr class="hidden-xs">
+                                    <td><i class="fa fa-github-square"></i> Github</td>
+                                    <td>github.com/bdtechies</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="col-md-8 col-sm-12">
+                        <h2 class="text-center">Send Us Email</h2>
+                        <form class="form-horizontal" action="//formspree.io/musafirshahid@gmail.com" method="POST">
+                            <div class="form-group">
+                                <div class="col-md-offset-2 col-md-8 col-sm-12">
+                                    <input type="text" class="form-control" id="name" placeholder='&#xf007; Name' name="name">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-md-offset-2 col-md-8 col-sm-12">
+                                    <input type="email" class="form-control" id="_replyto" placeholder='&#xf0e0; Email' name="_replyto">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-md-offset-2 col-md-8 col-sm-12">
+                                    <textarea name="contact-message" id="contact-message" class="form-control" cols="30" rows="4" placeholder='&#xf040; Message'></textarea>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-md-offset-2 col-md-8 col-sm-12">
+                                    <button type="submit" class="btn btn-primary btn-block" value="send">Send</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+
+    <div class="container">
+        <div class="row">
+            <div id="infoMenu">
+                <ul>
+                    <p><i class="fa fa-copyright"></i> 2016 <a href="http://bdtechies.com">BDTechies</a></p>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
 </body>
 
 </html>

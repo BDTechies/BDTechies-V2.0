@@ -1,9 +1,11 @@
 @import url(https://fonts.googleapis.com/css?family=Quicksand);
 @import url(https://fonts.googleapis.com/css?family=Akronim);
+@import url(https://fonts.googleapis.com/css?family=Architects+Daughter);
+@import url(https://fonts.googleapis.com/css?family=Handlee);
 
 body {
 	color: #ececec;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Handlee', cursive;
 }
 
 .outer {
@@ -31,18 +33,18 @@ Navigation
 	text-shadow: 0 0 1px #000;
 }
 
-.navbar-brand:hover .t{
+.navbar-brand .t{
 	color: red;
 }
 
-.navbar-brand:hover .bd, .navbar-brand:hover .echies{
+.navbar-brand .bd, .navbar-brand .echies{
 	color: #1E824C;
 }
 
 .navbar-default {
     background: none;
     border-style: dotted;
-    border-color: rgba(255,255,255,.3);
+    border-color: rgba(0,0,0,.2);
 }
 
 .navbar-default .navbar-brand {
@@ -50,19 +52,22 @@ Navigation
 }
 
 .navbar-default .navbar-nav > li > a {
-    color: #ececec;
+    color: #000;
 }
 
 .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
     color: #F2784B;
 }
 
+
+
+
 /*---
 Home
 ---*/
 
 #home {
-	background-image: url(../img/home-bg.png);
+	background-image: url(../img/home.jpg);
     background-size: cover;
 	font-family: 'Akronim', cursive;
 	text-shadow: 1px 1px 1px #000;
@@ -84,6 +89,7 @@ About
     text-align: justify;
     font-size: 1.5em;
     line-height: 1.5em;
+    font-family: 'Quicksand', sans-serif;
 }
 
 #bg-about {
@@ -93,11 +99,67 @@ About
 }
 
 /*---
+Portfolio
+--------*/
+
+.portfolio {
+    padding-top: 30px;
+    background: #fff;
+}
+
+/*---
+Contact
+--------*/
+
+.contact {
+    background: #e2e2e2;
+    color: #000;
+}
+
+.form-horizontal textarea, input {
+    font-family: FontAwesome, 'Handlee', cursive;
+}
+
+
+#infoMenu{
+	height: 20px;
+	color: #6C7A89;
+	position:fixed;
+	z-index:70;
+	bottom:0;
+	font-size:0.9em;
+    padding-left: 15px;
+}
+#infoMenu ul{
+	padding: 0;
+}
+#infoMenu li a{
+	display: block;
+	margin: 0 22px 0 0;
+	color: #333;
+}
+#infoMenu li a:hover{
+	text-decoration:underline;
+}
+#infoMenu li{
+	display:inline-block;
+	position:relative;
+}
+
+/*---
 Responsive
 --------*/
 @media only screen and (max-width: 320px) {
     .about {
         font-size: 1em;
         line-height: 1.7em;
+    }
+    
+    .contact {
+        padding-top: 2em;
+    }
+    
+    .contact h2 {
+        display: none;
     }
 }
